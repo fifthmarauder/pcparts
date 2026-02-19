@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+  width: 100%;
+}
+
+.main {
+  background-color: #0b0e14;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logoBackground {
+  background-color: #21ca91;
+  box-shadow: 0 0 12px -3px hsl(160deg 72% 46% / 20% / 0.2);
+  padding: 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoFont {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.logoFont1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.logoFont2 {
+  color: #21ca91;
+  letter-spacing: 0.2rem;
+  line-height: 1.25;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
