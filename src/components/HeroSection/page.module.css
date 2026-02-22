@@ -1,0 +1,51 @@
+.main {
+  font-family: var(--font-jakarta);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.firstContainer {
+  max-width: 1280px;
+}
+
+.leftContainer {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.headingPill {
+  color: rgb(227, 232, 232);
+  background-color: rgb(28, 33, 44);
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.heading {
+  font-size: 72px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.description {
+  color: rgb(129, 144, 152);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.buttonStyle {
+  display: flex;
+}

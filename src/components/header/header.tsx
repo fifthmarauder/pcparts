@@ -6,6 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import LogoutIcon from "@mui/icons-material/Logout";
+import Button from "../common/Button/Button";
 const Header = () => {
   return (
     <div className={styles.main}>
@@ -44,10 +45,19 @@ const Header = () => {
           <div>
             <WbSunnyOutlinedIcon sx={{ color: "white", fontSize: "18px" }} />
           </div>
-          <div className={styles.actionButton1}>Start a Build</div>
-          <div className={styles.actionButton2}>
-            <LogoutIcon sx={{ fontSize: "14px" }} /> Sign In
-          </div>
+          <Button
+            text={"Start a Build"}
+            containerStyles={{ backgroundColor: "var(--color-textGreen)" }}
+          />
+          <Button
+            text={"Sign In"}
+            Icon={LogoutIcon}
+            buttonStyles={{ fontSize: "14px" }}
+            containerStyles={{
+              border: "1px solid #2e3647",
+              color: "white",
+            }}
+          />
         </div>
       </div>
     </div>

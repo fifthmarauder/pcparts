@@ -1,6 +1,10 @@
-import Header from "@/components/header/header";
+import HeroSection from "@/components/HeroSection/HeroSection";
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className={styles.main}>
+      <HeroSection />
+    </div>
+  );
 }
