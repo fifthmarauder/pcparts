@@ -1,6 +1,7 @@
 import Button from "../common/Button/Button";
 import styles from "./page.module.css";
 import MemoryIcon from "@mui/icons-material/Memory";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 const HeroSection = () => {
   return (
@@ -22,13 +23,25 @@ const HeroSection = () => {
           <div className={styles.buttonStyle}>
             <Button
               text={"Start Building"}
+              Icon={ArrowRightAltIcon}
+              buttonStyles={{ fontSize: "18px" }}
               containerStyles={{
                 backgroundColor: "var(--color-textGreen)",
                 fontSize: "14px",
                 padding: "12px 32px",
+                display: "flex",
+                flexDirection: "row-reverse",
               }}
             />
-            <Button text={"Browse Builds"} />
+            <Button
+              text={"Browse Builds"}
+              containerStyles={{
+                color: "white",
+                border: "1px solid #2e3647",
+                fontSize: "14px",
+                padding: "12px 32px",
+              }}
+            />
           </div>
         </div>
         {/* rightconrainer */}
