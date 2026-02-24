@@ -9,6 +9,9 @@
 
 .firstContainer {
   max-width: 1280px;
+  display: flex;
+  max-height: 50vh;
+  gap: px;
 }
 
 .leftContainer {
@@ -49,4 +52,20 @@
 .buttonStyle {
   display: flex;
   gap: 12px;
+}
+
+.rightcontainer {
+  display: flex;
+  border-radius: 20px;
+  /* padding: 24px; */
+  border: 2px solid var(--color-textGreen);
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.border-video {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
 }
