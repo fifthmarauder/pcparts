@@ -45,11 +45,11 @@ const HeroSection = () => {
           </div>
         </div>
         {/* rightconrainer */}
-        <div className={styles.rightcontainer}>
+        {/* <div className={styles.rightcontainer}>
           <video autoPlay loop muted playsInline className="border-video">
             <source src="/videos/pc.mp4" type="video/mp4" />
           </video>
-        </div>
+        </div> */}
       </div>
       <div className={styles.secondContainer}></div>
     </div>
